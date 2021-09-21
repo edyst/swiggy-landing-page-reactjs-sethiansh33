@@ -1,0 +1,31 @@
+.dt {
+  text-align: left;
+  margin-top: 8%;
+}
+
+h2 {
+  color: #686b78;
+}
+
+.ani-bot {
+  position: relative;
+  animation: animatebottom 2.9s;
+}
+@keyframes animatebottom {
+  0% {
+    bottom: -30px;
+    opacity: 0;
+  }
+  25% {
+    bottom: 0px;
+    opacity: 1;
+  }
+  95% {
+    bottom: 0px;
+    opacity: 1;
+  }
+  100% {
+    bottom: 20px;
+    opacity: 0;
+  }
+}

@@ -1,0 +1,80 @@
+.rs {
+  height: 570px;
+  position: relative;
+}
+.pocket {
+  font-size: 40px;
+  font-weight: 600;
+  width: 300px;
+  overflow: hidden;
+  line-height: 1;
+  letter-spacing: -0.45px;
+}
+.order {
+  font-size: 20px;
+  width: 400px;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  color: #7e808c;
+  line-height: 1.2;
+}
+
+.rest {
+  min-width: 1200px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.in {
+  margin-top: 15%;
+}
+.and,
+.ip {
+  width: 384px;
+  height: 489px;
+}
+/* .out{
+} */
+.ip {
+  /* padding-top:10%; */
+  /* margin-top: 15%; */
+  position: absolute;
+  /* top: 10%; */
+  bottom: 0;
+}
+@media only screen and (max-width: 500px) {
+  .rs {
+    height: max-content;
+    width: 100vw;
+  }
+  .rest {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 8%;
+  }
+  .out {
+    display: flex;
+    flex-direction: column;
+  }
+  .ip {
+    position: unset;
+  }
+  .in {
+    margin-top: 5%;
+  }
+  .order {
+    text-align: center;
+  }
+  .pocket{
+    width: 420px;
+  font-size: 35px;
+  }
+  .rs{
+    overflow-x: hidden;
+  }
+  .mt{
+    margin-top: 30px !important;
+  }
+}
